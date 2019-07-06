@@ -1,0 +1,198 @@
+{
+  "name": "Donator",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "mOmYb",
+  "actions": [
+    {
+      "info": "2",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "Member",
+      "name": "Store Command Params"
+    },
+    {
+      "info": "1",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "Wiad123",
+      "name": "Store Command Params"
+    },
+    {
+      "storage": "1",
+      "varName": "Wiad123",
+      "comparison": "1",
+      "value": "Day",
+      "iftrue": "2",
+      "iftrueVal": "5",
+      "iffalse": "1",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "Wiad123",
+      "comparison": "1",
+      "value": "Month",
+      "iftrue": "2",
+      "iftrueVal": "",
+      "iffalse": "1",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "title": "Da³eœ Graczowi Donatora na 1 dzieñ",
+      "author": "",
+      "color": "",
+      "timestamp": "false",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "embed1",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed1",
+      "message": "Da³eœ Graczowi ${tempVars(\"Member\")} Donatora :D",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed1",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "1",
+      "varName3": "${tempVars(\"1234567890\")}",
+      "name": "Send Embed Message"
+    },
+    {
+      "member": "3",
+      "varName2": "${serverVars(\"Role\")}",
+      "role": "3",
+      "varName": "Member",
+      "name": "Add Member Role"
+    },
+    {
+      "time": "24",
+      "measurement": "3",
+      "name": "Wait"
+    },
+    {
+      "member": "2",
+      "varName2": "${tempVars(\"Member\")}",
+      "role": "4",
+      "varName": "Role",
+      "name": "Remove Member Role"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "Gracz Dosta³ Donator na Mieœi¹c ",
+      "author": "",
+      "color": "",
+      "timestamp": "false",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "12345embed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "12345embed",
+      "message": "Gracz ${tempVars(\"Member\")} Dosta³ Donatora na Miesi¹æ",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "12345embed",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "1",
+      "varName3": "${tempVars(\"1234567890\")}",
+      "name": "Send Embed Message"
+    },
+    {
+      "member": "2",
+      "varName2": "${tempVars(\"Member\")}",
+      "role": "4",
+      "varName": "Role",
+      "name": "Add Member Role"
+    },
+    {
+      "time": "100",
+      "measurement": "3",
+      "name": "Wait"
+    },
+    {
+      "time": "100",
+      "measurement": "3",
+      "name": "Wait"
+    },
+    {
+      "time": "100",
+      "measurement": "3",
+      "name": "Wait"
+    },
+    {
+      "time": "100",
+      "measurement": "3",
+      "name": "Wait"
+    },
+    {
+      "time": "100",
+      "measurement": "3",
+      "name": "Wait"
+    },
+    {
+      "time": "100",
+      "measurement": "3",
+      "name": "Wait"
+    },
+    {
+      "member": "2",
+      "varName2": "${tempVars(\"Member\")}",
+      "role": "4",
+      "varName": "Role",
+      "name": "Remove Member Role"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "Dz³a Wpisana Komênda ",
+      "author": "",
+      "color": "",
+      "timestamp": "false",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "1234567890",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "1234567890",
+      "message": "Dz³a Wpisana Komênda Poprawne U¿ycie\n(P)Donator (Na Dole Wpisane Wszystkie Dodatki)\nMo¿esz wpisaæ Day - czyli na 1 dzieñ\nMo¿esz Wpisaæ Month - Czyli na 30 Dni",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "1234567890",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "comType": "3"
+}
